@@ -1,0 +1,86 @@
+body {
+    font-family: 'Lato', sans-serif;
+    height: 100vh;
+    width: 100vw;
+}
+
+/* navbar */
+
+.fundo_btn {
+    background-color: #038C8C;
+}
+
+.abtn:hover {
+    background-color: #03A696;
+}
+
+.buscar {
+    background-color: #F28705;
+}
+
+.b:hover{
+    background-color: #F28705;
+}
+
+/* navbar */
+
+/* principal */
+
+.fundo_principal {
+    background-size: cover;
+    min-height: 100vh;
+    position: relative;
+    color: white;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+h1{
+    font-size: 2rem;
+}
+
+.pesquisa {
+    opacity: 0.4;
+}
+
+.color-overlay{ 
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.596);
+}
+
+/* principal */
+
+/* footer */
+
+.fundo_footer {
+    background-color: #012E40;
+}
+
+.footer a {
+    font-size: 0.8em;
+    text-transform: uppercase;
+    justify-content: space-around;
+  }
+
+.footer {
+    text-align: center;
+    display: block;
+    gap: 1em;
+    margin: auto;
+    justify-content: space-around;
+  }
+
+/* footer */
+
+@media (max-width: 768px) {
+    .fundo_principal{
+        min-height: 70vh;
+    }
+    h1{
+        font-size: calc(1.2rem);
+    }
+    .footer{
+        min-height: 10vh;
+    }
+}
